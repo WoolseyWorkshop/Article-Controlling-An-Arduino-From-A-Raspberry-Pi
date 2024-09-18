@@ -9,6 +9,7 @@
 
 void setup() {
    Serial.begin(9600);  // start serial communication at 9600 baud
+   pinMode(LED_BUILTIN, OUTPUT);  // set built-in LED as an output
 }
 
 
